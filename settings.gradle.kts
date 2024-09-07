@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Online Examination App"
+rootProject.name = "Proctorly"
 include(":app")
  
