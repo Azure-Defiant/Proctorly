@@ -14,6 +14,7 @@ class LogIn : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.login)
 
+        // button func into sign in
         val signinbutton = findViewById<Button>(R.id.signinbtn)
 
         signinbutton.setOnClickListener {

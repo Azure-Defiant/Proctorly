@@ -15,7 +15,7 @@ class GetStarted : AppCompatActivity() {
         setContentView(R.layout.get_started)
 
 
-
+// get started func button
         val getstartedbutton = findViewById<Button>(R.id.btngetstarted)
 
         getstartedbutton.setOnClickListener {
