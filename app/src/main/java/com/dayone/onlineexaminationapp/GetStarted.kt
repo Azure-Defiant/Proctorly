@@ -23,13 +23,5 @@ class GetStarted : AppCompatActivity() {
             startActivity(intent)
         }
 
-
-
-
-
-
-
-
-
     }
 }
