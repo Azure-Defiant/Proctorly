@@ -16,11 +16,20 @@ class LogIn : AppCompatActivity() {
 
         // button func into sign in
         val signinbutton = findViewById<Button>(R.id.signinbtn)
+        val loginbutton = findViewById<Button>(R.id.loginbtn)
 
         signinbutton.setOnClickListener {
             val intent = Intent(this, SignIn::class.java)
             startActivity(intent)
         }
+
+
+       loginbutton.setOnClickListener {
+            val intent = Intent(this, studentorteacher::class.java)
+            startActivity(intent)
+        }
+
+
 
 
 
