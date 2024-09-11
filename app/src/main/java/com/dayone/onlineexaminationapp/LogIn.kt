@@ -23,7 +23,7 @@ class LogIn : AppCompatActivity() {
             startActivity(intent)
         }
 
-
+// button function in student or teacher
        loginbutton.setOnClickListener {
             val intent = Intent(this, studentorteacher::class.java)
             startActivity(intent)

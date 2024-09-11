@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".studentorteacher">
 
+
     <ImageView
         android:id="@+id/logo_iv"
         android:layout_width="217dp"
@@ -94,4 +95,3 @@
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
